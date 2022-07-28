@@ -1,0 +1,290 @@
+/*
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.first{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.first .hero-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.second{
+    display: flex;
+    flex: 1;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.third{
+    display: flex;
+    flex: 1;
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.fourth{
+    display: flex;
+    flex: 1 1 100%;
+    background-color: #E5E7EB;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    flex-grow: 1;
+    width: 100%;
+    padding: 16px;
+    justify-content: center;
+}
+*/
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+.header-logo{
+    color: white;
+}
+
+.header{
+    background-color: #1F2937;
+    width: 100vw;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.grey-region{
+    flex: 1;
+    background-color: lightgray;
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkgray;
+}
+
+.arr{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.small-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.hero-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.hero-text-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.button-sign-up{
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: none;
+    flex: 0 0 0;
+    width: 150px;
+}
+
+
+
+.first{
+    background-color: white;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 auto;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    padding: 20px 150px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-radius: 10%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.second-heading{
+    padding: 20px 150px;
+    font-size: 29px;
+    font-weight: 900;
+}
+
+.gp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.second{
+    background-color: #E5E7EB;
+    width: 100%;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.qoute{
+    font-style: italic;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.qoute-author{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.third{
+    background-color: white;
+    flex: 1 1 auto;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.box{
+    color: white;
+    background-color: #3882f6;
+    margin: 100px 300px;
+    padding: 50px 150px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2%;
+}
+
+.box-left-head{
+    font: 900;
+    font-size: 25px;
+}
+
+.box-sign-up{
+    border-radius: 10%;
+    border-color: white;
+    background-color: #3882f6;
+    border-style: solid;
+    color: white;
+    padding: 2px 30px;
+}
+
+.footer{
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.container{
+    padding: 20px;
+    color: white;
+}
+
